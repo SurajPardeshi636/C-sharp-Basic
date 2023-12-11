@@ -4,47 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrefixAndPostFix
+namespace _3_ConstVariable
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int i = 10;
-            
+            const float Pi = 3.14F;
+            const float Gravity = 9.81F;
+            const int Marks = 100;
 
-            Console.WriteLine("this is prefix");
-            //prefix
-            // in this situation value is increase one by one increement 
-            ++i;
-            Console.WriteLine(i);
-            ++i;
-            Console.WriteLine(i);
-            ++i;
-            Console.WriteLine(i);
-            ++i;
-            Console.WriteLine(i);
-            ++i;
-            Console.WriteLine(i);
-
-
-            //postfix 
-            // in this situation value is decrease one by one
-
-            int j = 10;
-            Console.WriteLine("this is postfix");
-            
-            Console.WriteLine(j--);
-            j++;
-            Console.WriteLine(j);
-            j++;
-            Console.WriteLine(j);
-            j++;
-            Console.WriteLine(j);
-            j++;
-            Console.WriteLine(j);
+            Console.WriteLine(Pi);
+            Console.WriteLine(Gravity);
+            Console.WriteLine(Marks);
 
             Console.ReadLine();
+            
+            //const variable value u can not change it is fixed value 
+            //once u defined it u can not chngg
+
         }
     }
 }
