@@ -4,25 +4,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _3_ConstVariable
+namespace _4_Operators
 {
     class Program
     {
         static void Main(string[] args)
         {
-            const float Pi = 3.14F;
-            const float Gravity = 9.81F;
-            const int Marks = 100;
+            int a = 24;
+            int b = 5;
 
-            Console.WriteLine(Pi);
-            Console.WriteLine(Gravity);
-            Console.WriteLine(Marks);
+            //addition
+            int add = a + b;
+            Console.WriteLine(add);
+
+            //substraction
+            int sub = a - b;
+            Console.WriteLine(sub);
+
+            //multiplication
+            int mul = a * b;
+            Console.WriteLine(mul);
+
+            //devision
+            int div = a / b;
+            Console.WriteLine(div);
+
+            //reminder
+            int reminder = a % b;
+            Console.WriteLine(reminder);
+
+           
+
 
             Console.ReadLine();
-            
-            //const variable value u can not change it is fixed value 
-            //once u defined it u can not chngg
-
         }
     }
 }
